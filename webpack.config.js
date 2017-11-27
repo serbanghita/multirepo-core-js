@@ -6,7 +6,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "index.js",
-        library: "MyCore"
+        library: "MyCore",
+        libraryTarget: "commonjs-module"
     },
     resolve: {
         modules: [

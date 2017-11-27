@@ -12,7 +12,6 @@ export default class Actor extends Entity {
     }
 
     spawn() {
-        Utils.getRandomInt(0, 10);
-        return true;
+        return Utils.getRandomInt(0, 10);
     }
 }
