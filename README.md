@@ -3,6 +3,4 @@
 
 *Install*
 * `npm install`
-
-*Build*
-* `./node_modules/.bin/webpack --display-error-details`
+* `npm link` (after this go to `multirepo-app`)
